@@ -18,6 +18,7 @@ import { SecondComponent } from './second/second.component'
       { path: '', component: ProductListComponent },
       { path: 'first-component', component: FirstComponent },
   { path: 'second-component', component: SecondComponent },
+  {path: '', redirectTo: '/first-component', pathMatch: 'full'},
     ])
   ],
   declarations: [
