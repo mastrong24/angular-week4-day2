@@ -8,7 +8,10 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ImageListComponent } from './image-list/image-list.component';
 import { FirstComponent } from './first/first.component';
-import { SecondComponent } from './second/second.component'
+import { SecondComponent } from './second/second.component';
+import { BookListComponent } from './book-list/book-list.component';
+import { PenListComponent } from './pen-list/pen-list.component';
+import { GeomatryListComponent } from './geomatry-list/geomatry-list.component'
 
 @NgModule({
   imports: [
@@ -16,9 +19,10 @@ import { SecondComponent } from './second/second.component'
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'first-component', component: FirstComponent },
-  { path: 'second-component', component: SecondComponent },
-  {path: '', redirectTo: '/first-component', pathMatch: 'full'},
+      { path: 'book-component', component: BookListComponent },
+  { path: 'pen-component', component: PenListComponent },
+  { path: 'geomatry-component', component: GeomatryListComponent },
+  {path: '', redirectTo: '/book-component', pathMatch: 'full'},
     ])
   ],
   declarations: [
@@ -27,7 +31,10 @@ import { SecondComponent } from './second/second.component'
     ProductListComponent,
     ImageListComponent,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    BookListComponent,
+    PenListComponent,
+    GeomatryListComponent
   ],
   bootstrap: [
     AppComponent
