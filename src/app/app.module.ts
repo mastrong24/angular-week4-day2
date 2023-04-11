@@ -16,6 +16,8 @@ import { SecondComponent } from './second/second.component'
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'first-component', component: FirstComponent },
+  { path: 'second-component', component: SecondComponent },
     ])
   ],
   declarations: [
