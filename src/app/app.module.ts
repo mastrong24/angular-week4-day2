@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ImageListComponent } from './image-list/image-list.component';
-import { FirstComponent } from './first/first.component';
-import { SecondComponent } from './second/second.component';
 import { BookListComponent } from './book-list/book-list.component';
 import { PenListComponent } from './pen-list/pen-list.component';
 import { GeomatryListComponent } from './geomatry-list/geomatry-list.component'
@@ -18,7 +16,7 @@ import { GeomatryListComponent } from './geomatry-list/geomatry-list.component'
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+      // { path: '', component: ProductListComponent },
       { path: 'book-component', component: BookListComponent },
   { path: 'pen-component', component: PenListComponent },
   { path: 'geomatry-component', component: GeomatryListComponent },
@@ -30,8 +28,6 @@ import { GeomatryListComponent } from './geomatry-list/geomatry-list.component'
     TopBarComponent,
     ProductListComponent,
     ImageListComponent,
-    FirstComponent,
-    SecondComponent,
     BookListComponent,
     PenListComponent,
     GeomatryListComponent
