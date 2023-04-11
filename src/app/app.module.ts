@@ -20,7 +20,7 @@ import { GeomatryListComponent } from './geomatry-list/geomatry-list.component'
       { path: 'book-component', component: BookListComponent },
   { path: 'pen-component', component: PenListComponent },
   { path: 'geomatry-component', component: GeomatryListComponent },
-  // {path: '', redirectTo: '/book-component', pathMatch: 'full'},
+  {path: '', redirectTo: '/book-component', pathMatch: 'full'},
     ])
   ],
   declarations: [
