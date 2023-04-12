@@ -17,11 +17,11 @@
     <a class="button" routerLink="/geomatry-component" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Geomatry Component</a>
   </td></tr>
   <tr>
-    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width="100%" ><a routerLink="/book-component" ><app-image-list></app-image-list></a></td>
-    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width="100%" ><a routerLink="/pen-component" ><app-image-list></app-image-list></a></td>
+    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width="100%" *ngIf="hidden1" /><a routerLink="/book-component" (click)="imageSource1()" ><app-image-list></app-image-list></a></td>
+    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width="100%" *ngIf="hidden2" /><a routerLink="/pen-component" (click)="imageSource2()" ><app-image-list></app-image-list></a></td>
   <tr>
-    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width='100%' ><a routerLink="/geomatry-component" ><app-image-list></app-image-list></a></td>
-    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width='100%' ><a routerLink="/pen-component" ><app-image-list></app-image-list></a></td>
+    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width='100%' *ngIf="hidden3" /><a routerLink="/geomatry-component" (click)="imageSource3()" ><app-image-list></app-image-list></a></td>
+    <td><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80" width='100%' *ngIf="hidden4" /><a routerLink="/pen-component" (click)="imageSource4()" ><app-image-list></app-image-list></a></td>
   </tr>
 </table>
 

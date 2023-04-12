@@ -7,6 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+   hidden1=false;
+   hidden2=false;
+   hidden3=false;
+   hidden4=false;
+   
+   imageSource1(){
+     this.hidden1= !this.hidden1
+   }
+
+   imageSource2(){
+    this.hidden1= !this.hidden2
+  }
+
+  imageSource3(){
+    this.hidden1= !this.hidden3
+  }
+
+  imageSource4(){
+    this.hidden1= !this.hidden4
+  }
 
 }
 
