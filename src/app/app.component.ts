@@ -17,15 +17,15 @@ export class AppComponent {
    }
 
    imageSource2(){
-    this.hidden1= !this.hidden2
+    this.hidden2= !this.hidden2
   }
 
   imageSource3(){
-    this.hidden1= !this.hidden3
+    this.hidden3= !this.hidden3
   }
 
   imageSource4(){
-    this.hidden1= !this.hidden4
+    this.hidden4= !this.hidden4
   }
 
 }
